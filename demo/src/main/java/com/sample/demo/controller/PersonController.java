@@ -24,7 +24,7 @@ public class PersonController {
     }
 
     @GetMapping("/viewPerson")
-    public List<String> getPerson(){
+    public List<Person> getPerson(){
         return repo.findAll();
     }
 
